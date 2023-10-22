@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pico CSS Forever</title>
+    <!-- Utilisation de Pico CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css" />
+    <!-- Pour ajouter son CSS ou surcharger les propritétés de Pico -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><strong>Discovering Pico</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                <!-- Dropdown -->
+                <details role="list">
+                    <summary aria-haspopup="listbox" role="button">Categories</summary>
+                    <ul role="listbox">
+                        <li><a>Photos</a></li>
+                        <li><a>Articles</a></li>
+                        <li><a>Project</a></li>
+                    </ul>
+                </details>
+
+            </li>
+        </ul>
+    </nav>
+
+    <div class="toFlex">
+        <article>
+            <header>
+                <img src="/assets/image1.jpg" alt="Image de la planete terre">
+            </header>
+            <p class="desktop-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum adipisci,
+                recusandae veritatis a, deleniti totam perferendis atque voluptas laboriosam illo nesciunt fugiat facere
+                sed
+                porro rem, perspiciatis quisquam modi.</p>
+
+            <footer style="background-color: #1B386B;"> <a href="#">Lire la suite</a></footer>
+        </article>
+
+        <article>
+            <header>
+                <img src="/assets/image2.jpg" alt="Astronaute dans l'eau">
+            </header>
+            <p class="desktop-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab non sed delectus
+                deserunt repudiandae fugit, saepe mollitia rem, nostrum dolorum aperiam possimus alias culpa molestiae
+                illo
+                quasi aut fugiat.</p>
+
+            <footer style="background-color: #1B386B;"> <a href="#">Lire la suite</a></footer>
+        </article>
+
+        <article>
+            <header>
+                <img src="/assets/image3.jpg" alt="Planetes & galaxies">
+            </header>
+            <p class="desktop-only">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, illum. Culpa nemo
+                voluptas id quo excepturi quidem accusamus reiciendis sed nam dolore. Vero consequuntur repellat
+                laborum!
+                Sit reprehenderit eligendi tempora!</p>
+
+            <footer style="background-color: #1B386B;"> <a href="#">Lire la suite</a></footer>
+        </article>
+
+        <article>
+            <header>
+                <img src="/assets/image4.jpg" alt="Astronaute dans l'espace">
+            </header>
+            <p class="desktop-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae quod
+                distinctio recusandae voluptas corporis obcaecati consequuntur labore nulla explicabo iure dolorum,
+                facilis
+                ex? Cum quibusdam ut eos atque blanditiis.</p>
+
+            <footer style="background-color: #1B386B;"> <a href="#">Lire la suite</a></footer>
+        </article>
+    </div>
+
+</body>
+
+</html>
